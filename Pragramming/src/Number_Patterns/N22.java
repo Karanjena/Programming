@@ -1,8 +1,8 @@
-      package Patterns;
+package Number_Patterns;
 
 import java.util.Scanner;
 
-public class Pyramid {
+public class N22 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -10,9 +10,10 @@ public class Pyramid {
 		int n=sc.nextInt();
 		
 		for(int i=1;i<=n;i++) {
+			int sum=1;
 			for(int j=1;j<=n*2-1;j++) {
 				if(i+j>=n+1&&j-i<=n-1) {
-					System.out.print("* ");
+					System.out.print(sum+++ " ");
 				}else {
 					System.out.print("  ");
 				}
@@ -20,5 +21,6 @@ public class Pyramid {
 			System.out.println();
 		}
 		sc.close();
-	}
+	
+}
 }

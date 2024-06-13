@@ -11,7 +11,7 @@ public class Palindrome {
 		int sum=0;
 		int copy=n;
 		while(n!=0) {
-			int r=n%10;
+			int r=n%10;  
 			sum=(sum*10)+r;
 			n=n/10;
 		}
