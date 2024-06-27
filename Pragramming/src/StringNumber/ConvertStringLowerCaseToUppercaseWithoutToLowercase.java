@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ConvertStringLowerCaseToUppercaseWithoutToLowercase {
 
 	public static void main(String[] args) {
+
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Lower Character");
 		String s=sc.next();
@@ -16,7 +17,6 @@ public class ConvertStringLowerCaseToUppercaseWithoutToLowercase {
 				char ch1=(char)(asic-32);
 				res=res+ch1;
 			} else {
-
 				res=res+ch;
 			}
 		}
