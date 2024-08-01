@@ -9,8 +9,8 @@ public class N1 {
 		System.out.println("Enter The Number");
 		int n=sc.nextInt();
 		
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=n;j++) {
+		for(int i=01;i<=n;i++) {
+			for(int j=01;j<=n;j++) {
 				System.out.print(j);
 				}
 			System.out.println();
