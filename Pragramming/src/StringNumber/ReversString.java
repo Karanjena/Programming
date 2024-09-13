@@ -9,6 +9,7 @@ public class ReversString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter The String ");
 		String s=sc.next();
+		
 		String res="";
 		
 		for(int i=s.length()-1;i>=0;i--) {

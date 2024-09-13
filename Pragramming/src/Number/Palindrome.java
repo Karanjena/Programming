@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Palindrome {
 
 	public static void main(String[] args) {
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter The Number");
 		int n=sc.nextInt();
+		  
 		int sum=0;
 		int copy=n;
 		while(n!=0) {

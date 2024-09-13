@@ -11,18 +11,21 @@ public class ArmStrong_Number {
 		int sum=0;
 		int count=0;
 		int copy=n;
+		
 		while(n>0) {
 			n=n/10;
-			count++;
-			
+			count++;		
 		}
+		
 		n=copy;
+		
 		while(n>0) {
 			int d=n%10;
 			int pow=1;
 			for(int i=1;i<=count;i++) {
 				pow=pow*d;
 			}
+			
 			sum=sum+pow;
 			n=n/10;
 		}

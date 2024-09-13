@@ -10,6 +10,7 @@ public class Strong_Number {
 		int num = sc.nextInt();
 		int sum = 0;
 		int copy = num;
+		
 		while (num > 0) {
 			int d = num % 10;
 			int factorial = 1;
